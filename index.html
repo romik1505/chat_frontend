@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div class="auth__form hide">
+            <form>
+                <div class="login">
+                    <input type="text" id="username" placeholder="Введите логин">
+                </div>
+                <div>
+                   <button class="submit__btn">Войти</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="main hide">
+            <aside class="left_side">
+                <div class="user__card"></div>
+                <div class="userlist">
+                    <p>Все пользователи</p>
+                </div>
+            </aside>
+            <div class="chat">
+                <div class="chat__content"></div>
+                <div class="chat__footer">
+                    <textarea placeholder="Введите сообщение" id="message"></textarea>
+                    <button id="send">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="dist/bundle.js"></script>
+</body>
+</html>

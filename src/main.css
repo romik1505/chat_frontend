@@ -1,0 +1,126 @@
+@import url(reset.css);
+
+* {
+    box-sizing: border-box;
+}
+
+.auth__form {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgb(184, 202, 118);
+    text-align: center;
+}
+
+.login {
+    padding-top: 120px;
+    margin-bottom: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.left_side {
+    float: left;
+    width: 300px;
+    height: 100vh;
+    background-color: blanchedalmond;
+}
+
+.avatar {
+    padding: 15px;
+    width: 80px;
+}
+
+.user__card {
+    display: flex;
+    align-items: stretch;
+    border: 1px solid;
+}
+
+.avatar img {
+    border-radius: 80px;
+    width: 64px;
+    height: 64px;
+}
+
+.username {
+    width: 160px;
+    line-height: 100px;
+    margin-left: 20px;
+}
+
+.userlist {
+    margin: 20px 40px;
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.chat__footer {
+    display: flex;
+    flex-grow: 1;
+    height: 40px;
+    margin: 5px;
+}
+
+.chat__footer button {
+    /* height: 90%; */
+    /* float: right; */
+    margin: 0 3px;
+    height: 40px;
+}
+
+.chat__footer textarea {
+    width: calc(100% - 90px);
+}
+
+.chat__content {
+    height: calc(100vh - 50px);
+    padding: 0 60px;
+    overflow: scroll;
+}
+
+
+.msg__item {
+    display: flex;
+    align-items: center;
+}
+.msg__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.msg__header {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.msg__username {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.msg__date {
+    margin-left: 30px;
+    color: darkgrey;
+    font-size: 14px;
+}
+
+.msg__text {
+    margin-left: 20px;
+}
+
+.userlist__item {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.event_msg {
+    color:darkgrey;
+    padding: 10px 0;
+}
